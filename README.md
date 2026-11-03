@@ -49,6 +49,20 @@ sha256sum -c owl.iso.sha256
 
 ---
 
+## Verify your download
+
+- **File:** `owl.iso` (Owl OS 1.0 "Athena")
+- **Size:** 9,758,382,080 bytes (9.8 GB)
+- **SHA256:** `828c6405873b0728dac70099d154dd33e4fae0c76bf892511e6081888b8e1d06`
+
+Verify on Linux:
+
+```bash
+sha256sum owl.iso
+```
+
+---
+
 ## Install tools on any Debian/Ubuntu
 
 ```bash
