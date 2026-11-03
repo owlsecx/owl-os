@@ -422,7 +422,7 @@ sudo apt update && sudo apt install owl-system
 
 - Website: [https://owlsec.org](https://owlsec.org)
 - Email: support@owlsec.org
-- X: [@OwlsecX33742](https://x.com/OwlsecX33742) <!-- from GitHub profile twitter_username; not linked on owlsec.org -->
+- WhatsApp: [Owl OS channel](https://whatsapp.com/channel/0029VbCOxBDKwqSNPAJTrF44)
 
 ---
 
