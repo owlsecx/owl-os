@@ -36,6 +36,7 @@
 ## Download
 
 - **ISO:** [https://owlsec.org/downloads/owl.iso](https://owlsec.org/downloads/owl.iso)
+- **Size:** `owl.iso` — 9,758,382,080 bytes (9.09 GiB / 9.76 GB)
 - **Download page:** [https://owlsec.org/download](https://owlsec.org/download)
 - **SHA256:** A dedicated SHA256 checksum file was not published at a stable public URL at launch time. Prefer verifying from the checksum shown on [owlsec.org/download](https://owlsec.org/download) when available.
 
