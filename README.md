@@ -15,15 +15,6 @@
 
 ---
 
-## Desktop
-
-<p align="center">
-  <img src="assets/desktop-owl-safe.png" alt="Owl OS desktop" width="720"/>
-  <img src="assets/desktop-owl-desktop.png" alt="Owl OS desktop with owlsec.org" width="720"/>
-</p>
-
----
-
 ## Why Owl OS
 
 - **275+ native tools** — recon, web, network, AD, cloud, forensics, hardening, wireless, crypto, OSINT and more
