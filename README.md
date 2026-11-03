@@ -37,13 +37,11 @@
 - **ISO:** [https://owlsec.org/downloads/owl.iso](https://owlsec.org/downloads/owl.iso)
 - **Size:** `owl.iso` — 9,758,382,080 bytes (9.09 GiB / 9.76 GB)
 - **Download page:** [https://owlsec.org/download](https://owlsec.org/download)
-- **SHA256:** A dedicated SHA256 checksum file was not published at a stable public URL at launch time. Prefer verifying from the checksum shown on [owlsec.org/download](https://owlsec.org/download) when available.
+- **SHA256:** `828c6405873b0728dac70099d154dd33e4fae0c76bf892511e6081888b8e1d06`
 
 ```bash
-# After you have the published SHA256 sum (from the download page):
-sha256sum owl.iso
-# or, when a checksum file is provided:
-sha256sum -c owl.iso.sha256
+# Verify the ISO (should print: owl.iso: OK)
+echo "828c6405873b0728dac70099d154dd33e4fae0c76bf892511e6081888b8e1d06  owl.iso" | sha256sum -c -
 ```
 
 ---
