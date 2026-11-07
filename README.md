@@ -4,10 +4,10 @@
   <img src="assets/owl-os-logo.png" alt="Owl OS logo" width="160"/>
 </p>
 
-<p align="center"><strong>Owl OS</strong> — Debian-based cybersecurity OS with 275+ open-source offensive, defensive &amp; intelligence tools</p>
+<p align="center"><strong>Owl OS</strong> — free Debian-based cybersecurity OS with 275+ original offensive, defensive &amp; intelligence tools</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Price-Free-green?style=flat-square"/>
   <img src="https://img.shields.io/badge/Tools-275%2B-blue?style=flat-square"/>
   <img src="https://img.shields.io/badge/Website-owlsec.org-7b5ea7?style=flat-square"/>
   <img src="https://img.shields.io/badge/Base-Debian-a80000?style=flat-square"/>
@@ -425,4 +425,6 @@ sudo apt update && sudo apt install owl-system
 
 ## ©️ License
 
-MIT License — © Khaled S. Haddad
+Owl OS is free to download and use. Selected Owlsec tools are published as open source under [github.com/owlsecx](https://github.com/owlsecx); see each tool's repository for its license.
+
+© Khaled S. Haddad
