@@ -15,7 +15,7 @@ All tools in this project are intended **only** for authorised security testing,
 
 ## Reporting security issues
 
-Email **support@owlsec.org** with details. Please allow reasonable time for a response before any public disclosure.
+Email **team@owlsec.org** with details. Please allow reasonable time for a response before any public disclosure.
 
 ## Code of conduct
 

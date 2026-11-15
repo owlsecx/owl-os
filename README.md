@@ -418,7 +418,7 @@ sudo apt update && sudo apt install owl-system
 ## Contact
 
 - Website: [https://owlsec.org](https://owlsec.org)
-- Email: support@owlsec.org
+- Email: info@owlsec.org
 - WhatsApp: [Owl OS channel](https://whatsapp.com/channel/0029VbCOxBDKwqSNPAJTrF44)
 
 ---
