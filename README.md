@@ -423,6 +423,12 @@ sudo apt update && sudo apt install owl-system
 
 ---
 
+## Company
+
+Owl OS is developed and published by **Owlsec LLC**, a limited liability company registered in New Mexico, USA (formed November 6, 2026).
+
+---
+
 ## ©️ License
 
 Owl OS is free to download and use. Selected Owlsec tools are published as open source under [github.com/owlsecx](https://github.com/owlsecx); see each tool's repository for its license.
