@@ -4,11 +4,11 @@
   <img src="assets/owl-os-logo.png" alt="Owl OS logo" width="160"/>
 </p>
 
-<p align="center"><strong>Owl OS</strong> — free Debian-based cybersecurity OS with 300+ original offensive, defensive &amp; intelligence tools</p>
+<p align="center"><strong>Owl OS</strong> — free Debian-based cybersecurity OS with 275+ original offensive, defensive &amp; intelligence tools</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Price-Free-green?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Tools-300%2B-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Tools-275%2B-blue?style=flat-square"/>
   <img src="https://img.shields.io/badge/Website-owlsec.org-7b5ea7?style=flat-square"/>
   <img src="https://img.shields.io/badge/Base-Debian-a80000?style=flat-square"/>
 </p>
@@ -25,7 +25,7 @@
 
 ## Why Owl OS
 
-- **300+ native tools** — recon, web, network, AD, cloud, forensics, hardening, wireless, crypto, OSINT and more
+- **275+ native tools** — recon, web, network, AD, cloud, forensics, hardening, wireless, crypto, OSINT and more
 - **Debian-based** — familiar apt workflow, stable base, easy to extend
 - **Offensive + defensive + intelligence** — one toolkit for red, blue and intel work
 - **Install anywhere** — use the ISO, or add the Owl apt repo on Debian/Ubuntu
