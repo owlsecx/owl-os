@@ -431,6 +431,10 @@ Owl OS is developed and published by **Owlsec LLC**, a limited liability company
 
 ## ©️ License
 
-Owl OS is free to download and use. Selected Owlsec tools are published as open source under [github.com/owlsecx](https://github.com/owlsecx); see each tool's repository for its license.
+Owl OS is free of charge for personal, educational, and commercial use, including professional penetration-testing work. The operating system itself is proprietary and closed-source; it is not open source and is not licensed under the MIT License.
 
-© Khaled.s.Haddad
+You may install it on as many machines as you like and share the official, unmodified ISO free of charge with its checksums intact. You may not sell it, rebrand or modify the ISO and redistribute that copy, or reverse-engineer Owlsec's closed components.
+
+Third-party software bundled with Owl OS keeps its own licenses. OwlSec tools published at [github.com/owlsecx](https://github.com/owlsecx) and [gitlab.com/owlsecx](https://gitlab.com/owlsecx) are under the MIT License as stated in each repository.
+
+Use only on systems you own or have explicit written permission to test. Full terms: [EULA.md](EULA.md).

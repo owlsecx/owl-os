@@ -1,0 +1,104 @@
+# Owl OS End User License Agreement (EULA)
+
+**Owl OS 1.0 "Athena"**
+
+Copyright © 2026 Owlsec LLC. Author: Khaled.s.Haddad.
+
+This End User License Agreement ("Agreement") is a legal agreement between you and **Owlsec LLC**, a limited liability company registered in New Mexico, USA (formed November 6, 2026) ("Owlsec," "we," or "us").
+
+By downloading, installing, copying, or using Owl OS, you agree to this Agreement. If you do not agree, do not download, install, or use Owl OS.
+
+### 1. What this Agreement covers
+
+This Agreement covers **Owl OS**, including the official ISO image, the installed operating system, the official apt repository, and Owlsec's own closed-source tools and components shipped with them.
+
+It does not replace the licenses of third-party software bundled with Owl OS, and it does not replace the MIT License that applies to OwlSec tools published in public repositories, as explained in Sections 6 and 7.
+
+### 2. Free of charge; proprietary software
+
+Owl OS is **free of charge** for personal, educational, and commercial use, including professional penetration-testing engagements.
+
+Owl OS itself is **proprietary, closed-source software**. It is not open source. It is not licensed under the MIT License or any other open-source license.
+
+"Free" in this Agreement means you do not pay Owlsec a license fee to use Owl OS. It does not mean that the source code is published or that you may treat Owl OS as open-source software.
+
+### 3. License grant
+
+Subject to this Agreement, Owlsec grants you a worldwide, royalty-free, non-exclusive license to use Owl OS as set out in Section 4.
+
+All rights not expressly granted are reserved by Owlsec LLC.
+
+### 4. What you may do
+
+You may:
+
+1. **Download and install** Owl OS on as many machines as you want, including virtual machines, USB drives, and physical computers.
+2. **Use** Owl OS for personal, educational, and commercial purposes, including paid professional work such as authorized penetration testing, defensive security, forensics, and training that you deliver.
+3. **Redistribute the official ISO**. You may copy and share the official, unmodified Owl OS ISO image free of charge, provided that:
+   - the image is unaltered;
+   - the official checksums (for example the published SHA256) remain valid and are provided with the copy; and
+   - you do not charge a fee for Owl OS itself, and you do not present the copy as your own product or a different operating system.
+4. **Make backup, lab, and air-gapped copies** of the official ISO and of official apt packages for your own use.
+5. **Customize a system you have installed** for your own use (for example, installing other packages or changing settings). That is ordinary use of the installed system. It is not permission to build and redistribute a modified ISO or a rebranded distribution.
+6. Charge only a reasonable amount for a physical medium, bandwidth, or hardware on which an official, unmodified ISO is stored or preinstalled, if you also make clear that Owl OS itself is free of charge from Owlsec and that you are not selling the software.
+
+### 5. What you may not do
+
+You may not:
+
+1. **Sell** Owl OS, or charge a license fee, subscription, or paywall for the ISO, the apt repository, or Owlsec's closed-source tools.
+2. **Modify the official ISO and redistribute** the modified image, or create and distribute a derivative or rebranded operating system based on Owl OS.
+3. **Remove, hide, or replace** Owl OS branding, copyright notices, trademarks, or official checksums from any copy you redistribute.
+4. **Reverse engineer**, decompile, or disassemble Owlsec's closed-source components, except to the extent that applicable law gives you a non-waivable right to do so (for example, limited interoperability rights).
+5. **Describe Owl OS as open source** or as MIT-licensed, or apply an open-source license to Owl OS itself.
+6. Use Owlsec or Owl OS names or logos in a way that suggests Owlsec endorses, or is the source of, a modified or third-party product.
+
+These restrictions apply to Owl OS and to Owlsec's closed-source components. They do not take away rights you have under third-party licenses or under the MIT License for published OwlSec tools (Sections 6 and 7).
+
+### 6. Third-party software
+
+Owl OS bundles software from other projects, including but not limited to Debian, Metasploit, Ghidra, Wireshark, Hashcat, and Aircrack-ng.
+
+That software remains under its own licenses. This Agreement does not limit, replace, or override the rights you have under those licenses, and it does not grant you any rights that those licenses do not grant.
+
+### 7. OwlSec tools published under the MIT License
+
+Some OwlSec tools are published at [https://github.com/owlsecx](https://github.com/owlsecx) and [https://gitlab.com/owlsecx](https://gitlab.com/owlsecx).
+
+Each of those published tools is licensed under the **MIT License**, as stated in that tool's own repository. For those tools, the MIT License in the repository governs. This Agreement does not replace it.
+
+Tools or components that Owlsec has not published under the MIT License remain proprietary and are covered by this Agreement.
+
+### 8. Authorized use only
+
+Owl OS and the tools shipped with it are for **authorized use only**. You may use them only on systems you own or on systems for which you have explicit written permission to test.
+
+You are solely responsible for using Owl OS and its tools in compliance with applicable law. Unauthorized access, unauthorized testing, or other illegal use is not permitted.
+
+### 9. No warranty
+
+OWL OS IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+Owlsec does not warrant that Owl OS will be error-free, secure, or suitable for any particular engagement, or that it will meet your requirements.
+
+### 10. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, OWLSEC LLC AND KHALED.S.HADDAD SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, DATA, GOODWILL, OR BUSINESS, ARISING OUT OF OR RELATED TO OWL OS OR THIS AGREEMENT, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, OWLSEC'S TOTAL LIABILITY FOR ANY CLAIM ARISING OUT OF OR RELATED TO OWL OS OR THIS AGREEMENT SHALL NOT EXCEED US $0, BECAUSE OWL OS IS LICENSED FREE OF CHARGE.
+
+Some jurisdictions do not allow certain limitations. In those jurisdictions, the limits apply to the fullest extent permitted.
+
+### 11. Governing law
+
+This Agreement is governed by the laws of the State of New Mexico, United States of America, without regard to conflict-of-law rules.
+
+### 12. Contact
+
+- Inquiries: [info@owlsec.org](mailto:info@owlsec.org)
+- Support and security reports: [team@owlsec.org](mailto:team@owlsec.org)
+- Website: [https://owlsec.org](https://owlsec.org)
+
+### 13. Changes to this Agreement
+
+Owlsec may publish an updated EULA with future releases of Owl OS. The EULA included with a given official release applies to that release. This Agreement applies to Owl OS 1.0 "Athena" unless a later official text expressly replaces it.
