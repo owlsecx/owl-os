@@ -435,6 +435,6 @@ Owl OS is free of charge for personal, educational, and commercial use, includin
 
 You may install it on as many machines as you like and share the official, unmodified ISO free of charge with its checksums intact. You may not sell it, rebrand or modify the ISO and redistribute that copy, or reverse-engineer Owlsec's closed components.
 
-Third-party software bundled with Owl OS keeps its own licenses. Each OwlSec tool published at [github.com/owlsecx](https://github.com/owlsecx) and [gitlab.com/owlsecx](https://gitlab.com/owlsecx) is licensed as stated in that repository.
+Third-party software bundled with Owl OS keeps its own licenses. The tools are published at [github.com/owlsecx](https://github.com/owlsecx) and [gitlab.com/owlsecx](https://gitlab.com/owlsecx). 39 published OwlSec tools are open source under the MIT License; the rest are proprietary. Each tool's license is stated in its own repository.
 
 Use only on systems you own or have explicit written permission to test. Full terms: [EULA.md](EULA.md).
