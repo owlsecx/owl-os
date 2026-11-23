@@ -12,7 +12,7 @@ By downloading, installing, copying, or using Owl OS, you agree to this Agreemen
 
 This Agreement covers **Owl OS**, including the official ISO image, the installed operating system, the official apt repository, and Owlsec's own closed-source tools and components shipped with them.
 
-It does not replace the licenses of third-party software bundled with Owl OS, and it does not replace the MIT License that applies to OwlSec tools published in public repositories, as explained in Sections 6 and 7.
+It does not replace the licenses of third-party software bundled with Owl OS, and it does not replace the license stated in each OwlSec tool's own public repository, as explained in Sections 6 and 7.
 
 ### 2. Free of charge; proprietary software
 
@@ -53,7 +53,7 @@ You may not:
 5. **Describe Owl OS as open source** or as MIT-licensed, or apply an open-source license to Owl OS itself.
 6. Use Owlsec or Owl OS names or logos in a way that suggests Owlsec endorses, or is the source of, a modified or third-party product.
 
-These restrictions apply to Owl OS and to Owlsec's closed-source components. They do not take away rights you have under third-party licenses or under the MIT License for published OwlSec tools (Sections 6 and 7).
+These restrictions apply to Owl OS and to Owlsec's closed-source components. They do not take away rights you have under third-party licenses or under the license stated in a published OwlSec tool's own repository (Sections 6 and 7).
 
 ### 6. Third-party software
 
@@ -61,13 +61,13 @@ Owl OS bundles software from other projects, including but not limited to Debian
 
 That software remains under its own licenses. This Agreement does not limit, replace, or override the rights you have under those licenses, and it does not grant you any rights that those licenses do not grant.
 
-### 7. OwlSec tools published under the MIT License
+### 7. OwlSec tools published in public repositories
 
 Some OwlSec tools are published at [https://github.com/owlsecx](https://github.com/owlsecx) and [https://gitlab.com/owlsecx](https://gitlab.com/owlsecx).
 
-Each of those published tools is licensed under the **MIT License**, as stated in that tool's own repository. For those tools, the MIT License in the repository governs. This Agreement does not replace it.
+Each published tool is licensed as stated in that tool's own repository LICENSE file. This Agreement does not replace the license of a published tool.
 
-Tools or components that Owlsec has not published under the MIT License remain proprietary and are covered by this Agreement.
+Tools or components that Owlsec has not published, or that are published as proprietary, remain proprietary and are covered by this Agreement.
 
 ### 8. Authorized use only
 
