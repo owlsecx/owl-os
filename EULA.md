@@ -65,7 +65,7 @@ That software remains under its own licenses. This Agreement does not limit, rep
 
 Some OwlSec tools are published at [https://github.com/owlsecx](https://github.com/owlsecx) and [https://gitlab.com/owlsecx](https://gitlab.com/owlsecx).
 
-39 published OwlSec tools are open source under the MIT License; the rest are proprietary. Each tool's license is stated in its own repository.
+50 published OwlSec tools are open source: 39 (written in Go) under the GNU GPL-3.0, and 11 (Python, Scapy-based) under the GNU GPL-2.0. The rest are proprietary. Each tool's license is stated in its own repository.
 
 This Agreement does not replace the license of a published tool.
 
