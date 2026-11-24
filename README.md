@@ -35,13 +35,13 @@
 ## Download
 
 - **ISO:** [https://owlsec.org/downloads/owl.iso](https://owlsec.org/downloads/owl.iso)
-- **Size:** `owl.iso` — 9,758,382,080 bytes (9.09 GiB / 9.76 GB)
+- **Size:** `owl.iso` — 9,900,664,832 bytes (9.22 GiB / 9.90 GB)
 - **Download page:** [https://owlsec.org/download](https://owlsec.org/download)
-- **SHA256:** `828c6405873b0728dac70099d154dd33e4fae0c76bf892511e6081888b8e1d06`
+- **SHA256:** `e90433ce59f1326fec191424ccd19fa182ff139d83ace6475e4b2454f3d7c7de`
 
 ```bash
 # Verify the ISO (should print: owl.iso: OK)
-echo "828c6405873b0728dac70099d154dd33e4fae0c76bf892511e6081888b8e1d06  owl.iso" | sha256sum -c -
+echo "e90433ce59f1326fec191424ccd19fa182ff139d83ace6475e4b2454f3d7c7de  owl.iso" | sha256sum -c -
 ```
 
 ---
@@ -54,8 +54,8 @@ that signs the apt repository, so importing it once covers both.
 | | |
 |---|---|
 | File | `owl.iso` (Owl OS 1.0 "Athena") |
-| Size | 9,758,382,080 bytes (9.09 GiB) |
-| SHA256 | `828c6405873b0728dac70099d154dd33e4fae0c76bf892511e6081888b8e1d06` |
+| Size | 9,900,664,832 bytes (9.22 GiB) |
+| SHA256 | `e90433ce59f1326fec191424ccd19fa182ff139d83ace6475e4b2454f3d7c7de` |
 | Signing key | `00F5645ACE5D0436` |
 | Fingerprint | `22A8 E563 B2E6 4BF8 E121 A2FF 00F5 645A CE5D 0436` |
 
@@ -116,7 +116,7 @@ not use the image** — report it to security@owlsec.org.
 | Graphics | Any; Cinnamon falls back to software rendering | — |
 
 The installed system occupies about 18 GB. The rest of the 30 GB minimum is
-swap, logs, updates and working space. A live USB needs only the 9.09 GiB image
+swap, logs, updates and working space. A live USB needs only the 9.22 GiB image
 plus any persistence you choose.
 
 ---
