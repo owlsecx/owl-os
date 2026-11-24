@@ -388,7 +388,7 @@ sudo apt update && sudo apt install owl-system
 | [OWarning](https://github.com/owlsecx/OWarning) | Credential Dumping Early Warning: File + Process + ptrace/TracerPid correlation. |
 | [OYaraX](https://github.com/owlsecx/OYaraX) | Signature & IOC Malware Scanner for authorized security testing and analysis. |
 
-### Hardening/Defensive (57)
+### Hardening/Defensive (56)
 
 | Tool | Description |
 | --- | --- |
@@ -407,7 +407,6 @@ sudo apt update && sudo apt install owl-system
 | [OCassandraX](https://github.com/owlsecx/OCassandraX) | Offline NoSQL Wide-Column / Document Store for authorized security testing and analysis. |
 | [OChain](https://github.com/owlsecx/OChain) | Propagation path discovery, MITRE ATT&CK coverage, credential exposure, lateral movement indicators, network. |
 | [OCronAudit](https://github.com/owlsecx/OCronAudit) | Scheduled-Task & Persistence Auditor for authorized security testing and analysis. |
-| [OCronGen](https://github.com/owlsecx/OCronGen) | OCronGen is a crontab studio that builds, explains and validates cron expressions, previews next runs, lints… |
 | [OCupsX](https://github.com/owlsecx/OCupsX) | CUPS Printing-Service Configuration Auditor for authorized security testing and analysis. |
 | [OCymulate](https://github.com/owlsecx/OCymulate) | Breach & Attack Simulation (BAS): Safe adversary simulation for detection testing. |
 | [OElasticX](https://github.com/owlsecx/OElasticX) | Offline Elasticsearch / OpenSearch Config Auditor for authorized security testing and analysis. |
@@ -536,7 +535,7 @@ sudo apt update && sudo apt install owl-system
 
 ---
 
-### Open Source — Go (38)
+### Open Source — Go (39)
 
 These 38 tools are published under the **GNU GPL-3.0** with their complete
 source code in each repository. They are written in Go and have **no
@@ -544,22 +543,23 @@ third-party dependencies** — only the Go standard library.
 
 | Tool | Description |
 |---|---|
+| [OCronGen](https://github.com/owlsecx/OCronGen) | OCronGen is a crontab studio that builds, explains and validates cron expressions, previews next runs, lints… |
 | [OCVSS](https://github.com/owlsecx/OCVSS) | OCVSS: CVSS 3.1/4.0 Calculator |
-| [ODNSSEC](https://github.com/owlsecx/ODNSSEC) | ODNSSEC: DNSSEC Chain Validator |
-| [ODNSTunnel](https://github.com/owlsecx/ODNSTunnel) | ODNSTunnel: DNS Tunnel Detector |
 | [ODeauth](https://github.com/owlsecx/ODeauth) | ODeauth: 802.11 Deauth/Disassoc Analyzer |
 | [ODedupe](https://github.com/owlsecx/ODedupe) | ODedupe: Duplicate File Hunter |
 | [ODisasm](https://github.com/owlsecx/ODisasm) | ODisasm: Multi-Arch Disassembler |
+| [ODNSSEC](https://github.com/owlsecx/ODNSSEC) | ODNSSEC: DNSSEC Chain Validator |
+| [ODNSTunnel](https://github.com/owlsecx/ODNSTunnel) | ODNSTunnel: DNS Tunnel Detector |
 | [ODropper](https://github.com/owlsecx/ODropper) | ODropper: Stager/dropper analyzer — stages, decode, sandbox-evasion markers |
 | [OEAPOL](https://github.com/owlsecx/OEAPOL) | OEAPOL: EAPOL/802.1X Analyzer |
-| [OEPSS](https://github.com/owlsecx/OEPSS) | OEPSS: EPSS exploit prioritizer — FIRST EPSS, CISA KEV, CVSS, SLA buckets, exposure, history |
 | [OEnvScan](https://github.com/owlsecx/OEnvScan) | OEnvScan: .env / environment secret + misconfig scanner — tokens, git exposure, perms, drift |
+| [OEPSS](https://github.com/owlsecx/OEPSS) | OEPSS: EPSS exploit prioritizer — FIRST EPSS, CISA KEV, CVSS, SLA buckets, exposure, history |
 | [OExfilSim](https://github.com/owlsecx/OExfilSim) | OExfilSim: Exfiltration channel detector + offline simulator - pcap, Zeek, flows, DNS/ICMP/cloud/chunking |
 | [OExifX](https://github.com/owlsecx/OExifX) | OExifX: Metadata reader and scrubber (EXIF, GPS, XMP, PDF, Office) |
 | [OFIDO](https://github.com/owlsecx/OFIDO) | OFIDO: FIDO2/WebAuthn inspector and verifier (signatures, attestation, MDS) |
 | [OFileDiff](https://github.com/owlsecx/OFileDiff) | OFileDiff: Text, binary and directory diff with unified patch + apply |
-| [OGPSSpoofChk](https://github.com/owlsecx/OGPSSpoofChk) | OGPSSpoofChk: GPS/GNSS spoofing detector - offline NMEA/pcap analysis (teleport, C/N0, timing) |
 | [OGeoIP](https://github.com/owlsecx/OGeoIP) | OGeoIP: Offline IP geolocation (MaxMind MMDB engine) | scope | rDNS | ASN/BGP |
+| [OGPSSpoofChk](https://github.com/owlsecx/OGPSSpoofChk) | OGPSSpoofChk: GPS/GNSS spoofing detector - offline NMEA/pcap analysis (teleport, C/N0, timing) |
 | [OHandshake](https://github.com/owlsecx/OHandshake) | OHandshake: WPA/WPA2 handshake analyzer - 4-way/PMKID detect, hashcat -m 22000 export (offline) |
 | [OHashHunt](https://github.com/owlsecx/OHashHunt) | OHashHunt: Hash identifier + fast wordlist cracker (MD4/5, SHA-1/224/256/384/512, NTLM, salted) |
 | [OHive](https://github.com/owlsecx/OHive) | OHive: Windows registry hive parser (regf) - key tree, value decode, ATTandCK persistence (offline) |
@@ -569,17 +569,17 @@ third-party dependencies** — only the Go standard library.
 | [OImageScan](https://github.com/owlsecx/OImageScan) | OImageScan: Container image/layer inspector (reads image tar/manifest) |
 | [OImplant](https://github.com/owlsecx/OImplant) | OImplant: Implant config builder/analyzer - sleep, kill-date, channels, IOCs |
 | [OJSONForge](https://github.com/owlsecx/OJSONForge) | OJSONForge: JSON Query, Transform, Validate and Pretty |
-| [OKDF](https://github.com/owlsecx/OKDF) | OKDF: Key-derivation playground (pbkdf2/HKDF; scrypt/argon2id/bcrypt notes) |
 | [OKarma](https://github.com/owlsecx/OKarma) | OKarma: Evil-Twin/KARMA Analyzer |
+| [OKDF](https://github.com/owlsecx/OKDF) | OKDF: Key-derivation playground (pbkdf2/HKDF; scrypt/argon2id/bcrypt notes) |
 | [OKerberang](https://github.com/owlsecx/OKerberang) | OKerberang: Kerberos AS-REP/Kerberoast analyzer (offline; hashcat 18200/13100/19700) |
-| [OLDAPEnum](https://github.com/owlsecx/OLDAPEnum) | OLDAPEnum: LDAP/AD Enumerator |
 | [OLatency](https://github.com/owlsecx/OLatency) | OLatency: Latency + Jitter Monitor |
 | [OLateral](https://github.com/owlsecx/OLateral) | OLateral: Lateral-movement mapper - SMB/WMI/WinRM/SSH/PtH reachability and checklist |
+| [OLDAPEnum](https://github.com/owlsecx/OLDAPEnum) | OLDAPEnum: LDAP/AD Enumerator |
 | [OSyscall](https://github.com/owlsecx/OSyscall) | OSyscall: Syscall reference + /proc syscall activity summary |
-| [OTOTP](https://github.com/owlsecx/OTOTP) | OTOTP: TOTP/HOTP 2FA code generator and validator |
 | [OTarpit](https://github.com/owlsecx/OTarpit) | OTarpit: TCP Tarpit / Sticky Honeypot |
 | [OTimeline](https://github.com/owlsecx/OTimeline) | OTimeline: Filesystem Super-Timeline |
 | [OTokenX](https://github.com/owlsecx/OTokenX) | OTokenX: Windows Token/Privilege Analyzer |
+| [OTOTP](https://github.com/owlsecx/OTOTP) | OTOTP: TOTP/HOTP 2FA code generator and validator |
 | [OTreeMap](https://github.com/owlsecx/OTreeMap) | OTreeMap: Disk Usage Treemap Analyzer |
 | [OUACBypass](https://github.com/owlsecx/OUACBypass) | OUACBypass: UAC Bypass Technique Catalog |
 
