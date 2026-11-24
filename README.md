@@ -608,10 +608,51 @@ Owl OS is developed and published by **Owlsec LLC**, a limited liability company
 
 ## ©️ License
 
-Owl OS is free of charge for personal, educational, and commercial use, including professional penetration-testing work. The operating system itself is proprietary and closed-source; it is not open source and is not licensed under the MIT License.
+Owl OS is free of charge for personal, educational and commercial use, including
+professional penetration-testing work.
 
-You may install it on as many machines as you like and share the official, unmodified ISO free of charge with its checksums intact. You may not sell it, rebrand or modify the ISO and redistribute that copy, or reverse-engineer Owlsec's closed components.
+### What Owl OS is
 
-Third-party software bundled with Owl OS keeps its own licenses. The tools are published at [github.com/owlsecx](https://github.com/owlsecx) and [gitlab.com/owlsecx](https://gitlab.com/owlsecx). 50 published OwlSec tools are open source: 39 (written in Go) under the GNU GPL-3.0, and 11 (Python, Scapy-based) under the GNU GPL-2.0. The rest are proprietary. Each tool's license is stated in its own repository.
+Owl OS is a **distribution**: a curated collection of software assembled onto one
+installable image. It is built on Debian GNU/Linux 12 ("bookworm"), and every
+Debian package it ships is redistributed **unmodified**, at the exact version
+published by the Debian project. Owlsec LLC has not patched or rebuilt a single
+GPL- or LGPL-licensed package.
 
-Use only on systems you own or have explicit written permission to test. Full terms: [EULA.md](EULA.md).
+The Owl desktop appearance is configuration only — theme selection,
+dconf/gsettings values, wallpapers, boot splash artwork and icon sets. No GPL
+source code has been altered.
+
+### Licensing of the parts
+
+| Component | Licence |
+|---|---|
+| Debian base, Cinnamon desktop, and all bundled third-party software | Their own original licences (GPL, LGPL, MIT, BSD, Apache and others), **unchanged**. Licence texts ship inside the ISO at `/usr/share/doc/<package>/copyright`. |
+| 39 OwlSec tools (Go) | **GPL-3.0** — full source published |
+| 11 OwlSec tools (Python, Scapy-based) | **GPL-2.0** — full source published |
+| Remaining OwlSec tools | **Proprietary** — distributed as pre-built executables; source not published |
+| Owl branding, artwork, documentation, and the compilation as a whole | © 2026 Owlsec LLC |
+
+Each tool states its own licence in its own repository at
+[github.com/owlsecx](https://github.com/owlsecx) and
+[gitlab.com/owlsecx](https://gitlab.com/owlsecx).
+
+### What you may do
+
+Install Owl OS on as many machines as you like. Share the official, unmodified
+ISO free of charge with its checksums intact. Use it commercially, including in
+paid engagements.
+
+### What you may not do
+
+Sell Owl OS. Rebrand or modify the ISO and redistribute that copy as Owl OS.
+Reverse-engineer Owlsec's proprietary components.
+
+These restrictions apply to Owlsec's own work and to the compilation. They do not
+limit any right you already hold under the licence of any individual third-party
+package included in Owl OS.
+
+### Source code for GPL and LGPL components
+
+Every GPL- and LGPL-licensed package in Owl OS is an unmodified Debian package,
+so its corresponding source code is publicly available at any time:
