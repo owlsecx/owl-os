@@ -603,7 +603,21 @@ third-party dependencies** — only the Go standard library.
 
 ## Company
 
-Owl OS is developed and published by **Owlsec LLC**, a limited liability company registered in New Mexico, USA (formed November 6, 2026).
+Owl OS is developed and published by **Owlsec LLC**, a limited liability company
+formed in the State of New Mexico, United States.
+
+| | |
+|---|---|
+| Legal entity | Owlsec LLC |
+| Type | Domestic Limited Liability Company |
+| Jurisdiction | New Mexico, USA |
+| NM Entity ID | `0008142172` |
+| Formed | 5 November 2026 |
+| Status | Active |
+
+You can verify this independently in the New Mexico Secretary of State's public
+business registry: <https://www.sos.nm.gov> → Business Services → Business Search.
+Search for `Owlsec` or for the entity ID above.
 
 ---
 
