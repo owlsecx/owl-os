@@ -105,6 +105,88 @@ The signature cannot be forged without our private key. **If step 3 fails, do
 not use the image** — report it to security@owlsec.org.
 
 
+## System requirements
+
+| | Minimum | Recommended |
+|---|---|---|
+| CPU | 64-bit x86 (amd64), 2 cores | 4 cores |
+| RAM | 4 GB | 8 GB — Ghidra, Burp and Metasploit are memory-hungry |
+| Disk | 30 GB | 50 GB |
+| Firmware | UEFI or legacy BIOS | UEFI |
+| Graphics | Any; Cinnamon falls back to software rendering | — |
+
+The installed system occupies about 18 GB. The rest of the 30 GB minimum is
+swap, logs, updates and working space. A live USB needs only the 9.1 GB image
+plus any persistence you choose.
+
+---
+
+## Install
+
+### 1. Download and verify
+
+Download the ISO, then follow **Verify your download** above. Do not skip it.
+
+### 2. Write the image to a USB drive
+
+The image is hybrid — write it raw, do not copy it as a file.
+
+**Linux** — replace `/dev/sdX` with your USB device, and check it twice with
+`lsblk`, because this erases the whole drive:
+
+```bash
+lsblk                      # identify the USB device
+sudo dd if=owl.iso of=/dev/sdX bs=4M status=progress oflag=sync
+```
+
+**Windows** — use [Rufus](https://rufus.ie) in *DD Image* mode, or
+[balenaEtcher](https://etcher.balena.io).
+
+**macOS**:
+
+```bash
+diskutil list                              # identify the disk
+diskutil unmountDisk /dev/diskN
+sudo dd if=owl.iso of=/dev/rdiskN bs=4m
+```
+
+**Ventoy** also works: copy `owl.iso` onto a Ventoy drive and pick it at boot.
+
+### 3. Boot it
+
+Enter the boot menu at power-on — usually `F12`, `F10`, `F2`, `Esc` or `Del`,
+depending on the vendor — and select the USB device.
+
+If the USB does not appear, disable **Secure Boot** in firmware settings. Owl
+OS is not signed for Secure Boot.
+
+### 4. Log in to the live session
+
+| | |
+|---|---|
+| Username | `owl` |
+| Password | `owl` |
+
+Change the password immediately after installing. The live credentials are
+public and are meant only for the live session.
+
+### 5. Install to disk
+
+Launch the graphical installer from the desktop and follow it: language,
+keyboard, timezone, disk, user account. It can take the whole disk or sit
+alongside an existing system.
+
+> **Back up first.** Installing can erase the target disk. If you only want to
+> try Owl OS, stay in the live session or use a virtual machine.
+
+### Try it in a virtual machine
+
+Recommended before installing on real hardware. In VirtualBox, VMware or
+GNOME Boxes: attach `owl.iso`, give the VM at least **4 GB RAM** and a
+**30 GB disk**, and enable EFI. Guest additions are not preinstalled.
+
+---
+
 ## Install tools on any Debian/Ubuntu
 
 ```bash
