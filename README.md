@@ -48,17 +48,62 @@ echo "828c6405873b0728dac70099d154dd33e4fae0c76bf892511e6081888b8e1d06  owl.iso"
 
 ## Verify your download
 
-- **File:** `owl.iso` (Owl OS 1.0 "Athena")
-- **Size:** 9,758,382,080 bytes (9.8 GB)
-- **SHA256:** `828c6405873b0728dac70099d154dd33e4fae0c76bf892511e6081888b8e1d06`
+Every Owl OS release is signed with the **Owl OS Repository key** — the same key
+that signs the apt repository, so importing it once covers both.
 
-Verify on Linux:
+| | |
+|---|---|
+| File | `owl.iso` (Owl OS 1.0 "Athena") |
+| Size | 9,758,382,080 bytes (9.09 GiB) |
+| SHA256 | `828c6405873b0728dac70099d154dd33e4fae0c76bf892511e6081888b8e1d06` |
+| Signing key | `00F5645ACE5D0436` |
+| Fingerprint | `22A8 E563 B2E6 4BF8 E121 A2FF 00F5 645A CE5D 0436` |
+
+### Full verification
 
 ```bash
-sha256sum owl.iso
+# 1. Get the checksums, the signature and the key
+wget https://owlsec.org/downloads/SHA256SUMS
+wget https://owlsec.org/downloads/SHA256SUMS.asc
+wget https://owlsec.org/downloads/owl-os-signing-key.asc
+
+# 2. Import the key, then compare the fingerprint with the one above
+gpg --import owl-os-signing-key.asc
+gpg --fingerprint 00F5645ACE5D0436
+
+# 3. Verify the checksum file really came from us
+gpg --verify SHA256SUMS.asc SHA256SUMS
+
+# 4. Verify the ISO matches the checksum
+sha256sum -c SHA256SUMS
 ```
 
----
+Step 3 should print:
+
+```
+gpg: Good signature from "Owl OS Repository (Owl OS apt signing key) <support@owlsec.org>"
+gpg: WARNING: This key is not certified with a trusted signature!
+```
+
+**That warning is normal and expected.** It only means you have not personally
+signed our key — the same message appears for Debian, Kali and every other
+project. What matters is the line above it: `Good signature`, and that the
+fingerprint in step 2 matches the one published here.
+
+Step 4 should print `owl.iso: OK`.
+
+A `SHA512SUMS` file and its signature are published alongside, if you prefer
+SHA-512.
+
+### Why the signature matters
+
+A checksum alone only proves the file downloaded without corruption. If this
+website were ever compromised, an attacker could replace both the ISO **and**
+its published checksum, and the check would still pass.
+
+The signature cannot be forged without our private key. **If step 3 fails, do
+not use the image** — report it to security@owlsec.org.
+
 
 ## Install tools on any Debian/Ubuntu
 
