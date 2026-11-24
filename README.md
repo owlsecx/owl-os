@@ -656,3 +656,28 @@ package included in Owl OS.
 
 Every GPL- and LGPL-licensed package in Owl OS is an unmodified Debian package,
 so its corresponding source code is publicly available at any time:
+
+```bash
+apt-get source <package>=<version>
+```
+
+Historical versions are kept in the Debian snapshot archive at
+<https://snapshot.debian.org/>. If you would rather receive the source from us
+directly, write to info@owlsec.org stating the release version and the package
+name and version, and we will supply it.
+
+### Transparency for the proprietary tools
+
+Every proprietary OwlSec tool publishes two files in its own repository:
+
+- **`SBOM.cdx.json`** — a CycloneDX Software Bill of Materials listing the
+  binary's SHA-256, the bundled CPython version, and **every** bundled library
+  with its exact version and licence. Feed it to Grype, Trivy or
+  Dependency-Track and audit our dependencies for known CVEs yourself.
+- **`THIRD-PARTY-NOTICES.md`** — the full licence text of every third-party
+  component, extracted from the shipped binary.
+
+You can therefore verify exactly what is inside a closed tool without its source.
+
+Use only on systems you own or have explicit written permission to test.
+Full terms: [EULA.md](EULA.md).
