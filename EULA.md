@@ -18,7 +18,9 @@ It does not replace the licenses of third-party software bundled with Owl OS, an
 
 Owl OS is **free of charge** for personal, educational, and commercial use, including professional penetration-testing engagements.
 
-Owl OS itself is **proprietary, closed-source software**. It is not open source. It is not licensed under the MIT License or any other open-source license.
+Owl OS **as a whole** — the compilation, the Owl branding and artwork, the documentation, and Owlsec's own tools — is **proprietary**. It is not an open-source product, and it is not licensed under the MIT License or any other open-source license.
+
+This does not change the license of the third-party software included in Owl OS. Owl OS is built on Debian GNU/Linux 12, and every Debian package it ships is redistributed **unmodified**, at the exact version published by the Debian project. Owlsec LLC has not patched or rebuilt any GPL- or LGPL-licensed package. Those packages keep their own licenses, and nothing in this Agreement restricts the rights those licenses grant you.
 
 "Free" in this Agreement means you do not pay Owlsec a license fee to use Owl OS. It does not mean that the source code is published or that you may treat Owl OS as open-source software.
 

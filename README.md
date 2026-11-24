@@ -558,7 +558,7 @@ third-party dependencies** — only the Go standard library.
 | [OExifX](https://github.com/owlsecx/OExifX) | OExifX: Metadata reader and scrubber (EXIF, GPS, XMP, PDF, Office) |
 | [OFIDO](https://github.com/owlsecx/OFIDO) | OFIDO: FIDO2/WebAuthn inspector and verifier (signatures, attestation, MDS) |
 | [OFileDiff](https://github.com/owlsecx/OFileDiff) | OFileDiff: Text, binary and directory diff with unified patch + apply |
-| [OGeoIP](https://github.com/owlsecx/OGeoIP) | OGeoIP: Offline IP geolocation (MaxMind MMDB engine) | scope | rDNS | ASN/BGP |
+| [OGeoIP](https://github.com/owlsecx/OGeoIP) | OGeoIP: Offline IP geolocation (MaxMind MMDB engine) — scope, rDNS, ASN/BGP |
 | [OGPSSpoofChk](https://github.com/owlsecx/OGPSSpoofChk) | OGPSSpoofChk: GPS/GNSS spoofing detector - offline NMEA/pcap analysis (teleport, C/N0, timing) |
 | [OHandshake](https://github.com/owlsecx/OHandshake) | OHandshake: WPA/WPA2 handshake analyzer - 4-way/PMKID detect, hashcat -m 22000 export (offline) |
 | [OHashHunt](https://github.com/owlsecx/OHashHunt) | OHashHunt: Hash identifier + fast wordlist cracker (MD4/5, SHA-1/224/256/384/512, NTLM, salted) |
@@ -595,6 +595,7 @@ third-party dependencies** — only the Go standard library.
 
 - Website: [https://owlsec.org](https://owlsec.org)
 - Email: info@owlsec.org
+- Security reports: security@owlsec.org
 - X: [@owlsecx](https://x.com/owlsecx)
 - WhatsApp: [Owl OS channel](https://whatsapp.com/channel/0029VbCOxBDKwqSNPAJTrF44)
 
