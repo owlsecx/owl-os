@@ -1,0 +1,71 @@
+Owl OS — Written Offer for GPL / LGPL Source Code
+==================================================
+
+Owl OS is built on Debian GNU/Linux 12 ("bookworm"). It redistributes software
+packages licensed under the GNU General Public License (GPL), the GNU Lesser
+General Public License (LGPL), and other free software licenses.
+
+STATEMENT OF NON-MODIFICATION
+------------------------------
+Owlsec LLC has not modified the source code of any GPL- or LGPL-licensed
+package distributed in Owl OS. Every such package is redistributed in the
+exact binary form published by the Debian project, at the exact version
+recorded in the accompanying PACKAGE-MANIFEST.txt.
+
+Desktop appearance ("Owl branding") is applied solely through configuration:
+theme selection, dconf/gsettings values, wallpapers, boot splash artwork and
+icon sets. No source code of any GPL-licensed program has been altered.
+
+
+WRITTEN OFFER
+-------------
+In accordance with Section 3(b) of the GNU General Public License, version 2,
+and the corresponding provisions of GPL version 3 and of the LGPL, Owlsec LLC
+hereby offers to any third party, for a period of three (3) years from the
+date of distribution of the corresponding Owl OS release, to provide a
+complete machine-readable copy of the corresponding source code for any
+GPL- or LGPL-licensed package contained in that release, for a charge no more
+than our cost of physically performing the distribution.
+
+To make a request, contact:
+
+    Owlsec LLC
+    New Mexico, United States
+    info@owlsec.org
+
+Please state the Owl OS release version, and the exact package name and
+version as listed in PACKAGE-MANIFEST.txt.
+
+
+IMMEDIATE PUBLIC SOURCE ACCESS
+-------------------------------
+Because all packages are unmodified Debian packages, the corresponding source
+code is also publicly available at any time, independently of this offer:
+
+    apt-get source <package>=<version>
+
+The Debian snapshot archive retains every historical package version:
+
+    https://snapshot.debian.org/
+
+License texts for all bundled software are included inside every Owl OS
+release at /usr/share/doc/<package>/copyright, as shipped by Debian.
+
+
+SCOPE OF THIS OFFER
+-------------------
+This offer covers third-party packages distributed under the GPL, the LGPL, or
+other licenses that require source availability.
+
+It does not cover the proprietary OwlSec security tools developed by Owlsec
+LLC. Those tools are separate and independent programs, distributed alongside
+the operating system on the same medium (mere aggregation under GPLv2
+Section 2). They are not derivative works of any GPL-licensed program, and
+they do not link against, embed, or incorporate GPL-licensed code.
+
+For each OwlSec tool, a machine-readable inventory of every bundled component
+and its license is published in that tool's repository as SBOM.cdx.json, with
+full third-party license texts in THIRD-PARTY-NOTICES.md.
+
+
+Owlsec LLC
