@@ -537,7 +537,7 @@ sudo apt update && sudo apt install owl-system
 
 ### Open Source — Go (39)
 
-These 38 tools are published under the **GNU GPL-3.0** with their complete
+These 39 tools are published under the **GNU GPL-3.0** with their complete
 source code in each repository. They are written in Go and have **no
 third-party dependencies** — only the Go standard library.
 
