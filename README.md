@@ -102,7 +102,7 @@ website were ever compromised, an attacker could replace both the ISO **and**
 its published checksum, and the check would still pass.
 
 The signature cannot be forged without our private key. **If step 3 fails, do
-not use the image** — report it to security@owlsec.org.
+not use the image** — report it to team@owlsec.org.
 
 
 ## System requirements
@@ -595,7 +595,7 @@ third-party dependencies** — only the Go standard library.
 
 - Website: [https://owlsec.org](https://owlsec.org)
 - Email: info@owlsec.org
-- Security reports: security@owlsec.org
+- Security reports: team@owlsec.org
 - X: [@owlsecx](https://x.com/owlsecx)
 - WhatsApp: [Owl OS channel](https://whatsapp.com/channel/0029VbCOxBDKwqSNPAJTrF44)
 
